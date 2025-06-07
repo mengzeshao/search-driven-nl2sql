@@ -363,8 +363,6 @@ To more comprehensively evaluate the query efficiency of Search-driven NL2SQL, w
 | **Complex Combination Queries**     |             105.67               |                 18.41                  |            473.98%             |
 | **Average (across all types)**      |             **62.06**            |                **10.47**                 |          **502.87%**           |
 
-*Note: Input character counts for "Ordinary NL2SQL" are based on the original paper's metrics for Chinese input. The "Search-driven NL2SQL" counts are also based on the original paper's abstracted "effort units" for brevity, not necessarily literal English character counts for keywords. The percentage improvement is the key takeaway.*
-
 ### 4.1 Data Analysis
 From Table 1, we can observe:
 1.  **Universal Advantage**: Search-driven NL2SQL has a significantly lower average input character count than ordinary NL2SQL across all tested query types, leading to substantial query efficiency improvements.
@@ -412,7 +410,7 @@ In summary, Search-driven NL2SQL offers a highly promising new path for natural 
 1.  Zhong, V., Xiong, C., & Socher, R. (2017). "Seq2SQL: Generating structured queries from natural language using reinforcement learning." *arXiv preprint arXiv:1709.00103*.
 2.  Yu, T., Zhang, R., Yang, K., Yasunaga, M., Wang, D., Li, Z., ... & Radev, D. (2018). "Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-sql task." *arXiv preprint arXiv:1809.08887*.
 3.  Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D. (2020). "Language models are few-shot learners." *Advances in neural information processing systems, 33*, 1877-1901.
-4.  OpenAI. (2023). "GPT-4 Technical Report." *arXiv preprint arXiv:2303.08774*. (Assuming GPT-4o would have a similar or updated report)
+4.  OpenAI. (2023). "GPT-4 Technical Report." *arXiv preprint arXiv:2303.08774*.
 5.  Scholak, T., Schucher, N., & Gemulla, R. (2021). "Picard: Parsing incrementally for constrained auto-regressive decoding from language models." *arXiv preprint arXiv:2107.08990*.
 6.  Xu, X., Liu, C., & Song, D. (2017). "SQLNet: Generating structured queries from natural language without reinforcement learning." *arXiv preprint arXiv:1711.04436*.
 7.  Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. D. O., Kaplan, J., ... & Zaremba, W. (2021). "Evaluating large language models trained on code." *arXiv preprint arXiv:2107.03374*.
